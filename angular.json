@@ -23,9 +23,16 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/vendor.css",
+              "src/assets/css/app.css",
+              "src/assets/css/core/menu/menu-types/horizontal-menu.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
