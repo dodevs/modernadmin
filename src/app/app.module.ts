@@ -4,13 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import * as $ from 'jquery';
+import { UiModule } from './ui/ui.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    UiModule
   ],
   providers: [],
   bootstrap: [AppComponent]
