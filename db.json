@@ -1,0 +1,32 @@
+{
+    "usuarios": [
+        {
+            "id": "00001",
+            "nome": "Joao Silva",
+            "nascimento": "04/02/1984",
+            "cpf": "11111111111",
+            "endereco": {
+                "logradouro": "Rua None",
+                "numero": 311,
+                "bairro": "Qualquer",
+                "municipio": "Qualquer",
+                "estado": "Qualquer",
+                "pais": "Brazil"
+            },
+            "contato": [
+                {
+                    "titular": "Joao",
+                    "telefone": "00999999999"
+                },
+                {
+                    "titular": "Joao",
+                    "telefone": "00998888888"
+                },
+                {
+                    "titular": "Mae",
+                    "telefone": "00997777777"
+                }
+            ]
+        }
+    ]
+}
