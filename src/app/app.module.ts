@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 
 import * as $ from 'jquery';
 import { UiModule } from './ui/ui.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { UiModule } from './ui/ui.module';
   ],
   imports: [
     BrowserModule,
-    UiModule
+    UiModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
