@@ -7,6 +7,13 @@ import { SeletizeComponent } from './seletize/seletize.component';
   imports: [
     CommonModule
   ],
-  declarations: [DatatableComponent, SeletizeComponent]
+  declarations: [
+    DatatableComponent,
+    SeletizeComponent
+  ],
+  exports: [
+    DatatableComponent,
+    SeletizeComponent
+  ]
 })
 export class SharedModule { }
